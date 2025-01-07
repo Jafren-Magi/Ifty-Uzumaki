@@ -1,0 +1,14 @@
+/*nav bar edit start */
+nav ul> li{
+    list-style: none;
+}
+nav ul li> a{
+    text-decoration: none;
+    color: black;
+    padding-left: 45px ;
+    margin: 20;
+}
+nav > Ul{
+    display: flex;
+    margin: 0px;
+}
