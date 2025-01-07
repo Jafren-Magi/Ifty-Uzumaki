@@ -1,14 +1,39 @@
 /*nav bar edit start */
 nav ul> li{
     list-style: none;
+
 }
 nav ul li> a{
     text-decoration: none;
     color: black;
-    padding-left: 45px ;
-    margin: 20;
+    padding: 10px 45px;
+    margin: 0px;
+ 
 }
 nav > Ul{
     display: flex;
     margin: 0px;
+    border: 5px rgba(58, 58, 58, 0.795) solid; 
+    border-radius: 20px;
+    padding: 10px 20px;
+    border-top: 0px;
 }
+a:hover {
+    background-color: rgba(29, 29, 29, 0.76);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    margin: 0px;
+  }
+/*nav bar edit end */
+
+/*background image edit start */
+.BGimage{
+    background-image: url(image/BG\ image\ 01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/*background image edit start */
